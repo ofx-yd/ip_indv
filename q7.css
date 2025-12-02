@@ -1,0 +1,39 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 60px; 
+    background: #f0f0f0;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+    font-size: 20px;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #008CBA;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.content {
+    margin-top: 100px;
+    padding: 20px;
+    line-height: 1.8;
+}
