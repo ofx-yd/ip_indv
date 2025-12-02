@@ -1,0 +1,17 @@
+.menu a:first-child {
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+.menu .active {
+    background: lightblue;
+}
+
+.menu > a {
+    border: 1px solid gray;
+    padding: 8px;
+    display: inline-block;
+}
